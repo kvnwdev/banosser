@@ -1,0 +1,22 @@
+{
+  "name": "banosser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "process:images": "node scripts/process_images.js",
+    "process:images:openrouter": "node scripts/process_images_openrouter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "@google/genai": "^1.20.0",
+    "dotenv": "^17.2.2",
+    "ink": "^4.4.1",
+    "react": "^18.3.1"
+  }
+}
